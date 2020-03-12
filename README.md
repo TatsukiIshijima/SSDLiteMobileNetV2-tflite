@@ -49,3 +49,11 @@ tflite_convert --graph_def_file=frozen_inference_graph.pb
 ### 参考
 - [object_detection_ssd_coco.md](https://github.com/freedomtan/tensorflow/blob/object_detection_tflite_object_dtection_python/tensorflow/contrib/lite/examples/python/object_detection_ssd_coco.md)
 - [How to Convert Tensorflow Model to TF Lite Model](https://github.com/nnsuite/nnstreamer/wiki/%5BTF-Lite%5D-How-to-Convert-Tensorflow-Model-to-TF-Lite-Model)
+
+### 実行方法
+```
+python object_detection.py
+```
+
+### 結果
+![result](result.png)
